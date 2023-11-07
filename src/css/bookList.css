@@ -1,0 +1,23 @@
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .books-card {
+        max-width: 550px;
+
+        > p {
+            text-align: center;
+        }
+    }
+
+    .books-info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        p {
+            flex-basis: 50%;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "./css/normalize.css";
+@import "./css/header.css";
+@import "./css/hero.css";
+@import "./css/bookList.css";
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	font-family: 'Raleway', serif;
+	color: #101010;
+}
+
+a {
+	text-decoration: none;
+	color: #101010;
+}
+
+p {
+	font-weight: 300;
+    line-height: 1.3;
+}

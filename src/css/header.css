@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 30px 20px;
+
+    span {
+        font-family: 'Abril Fatface', serif;
+        font-size: 2.5rem;
+    }
+
+    .head {
+        display: flex;
+        flex-grow: 1;
+        justify-content: end;
+        align-items: end;
+        font-weight: 300;
+        font-size: 1.3rem;
+
+        ul {
+            margin: 0;
+            padding: 0;
+    
+            li {
+                list-style: none;
+                display: inline-block;
+                margin-left: 30px;
+            }
+        }
+    }
+}
